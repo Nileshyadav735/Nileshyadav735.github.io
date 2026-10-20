@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Nilesh Yadav — Full Stack Developer with 5 years of experience building web products with React, SolidJS, Node.js, GraphQL and MongoDB. Based in Mumbai, India.">
+<meta name="theme-color" content="#6d28d9">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nilesh Yadav — Full Stack Developer">
+<meta property="og:description" content="Nilesh Yadav — Full Stack Developer with 5 years of experience building web products with React, SolidJS, Node.js, GraphQL and MongoDB. Based in Mumbai, India.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236d28d9'/%3E%3Cstop offset='1' stop-color='%23db2777'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3ENY%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Nilesh Yadav","jobTitle":"Full Stack Developer","email":"mailto:nileshyadav735@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Mumbai","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/nileshyadav735"]}</script>
 <title>Nilesh Yadav — Full Stack Developer</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -70,7 +77,8 @@ h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-b
 .card:hover{transform:translateY(-6px);border-color:var(--accent)}
 .card h3{font-family:"Space Grotesk",sans-serif;margin:0 0 8px;font-size:1.15rem}
 .card p{margin:0 0 14px;color:var(--muted);font-size:.95rem}
-.ico{font-size:1.6rem;margin-bottom:10px}
+.ico{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.12em;color:var(--accent);margin-bottom:10px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-size:.75rem;padding:4px 10px;border-radius:999px;background:var(--glass-b);color:var(--text)}
 .skills{padding:28px}
@@ -85,24 +93,24 @@ h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-b
 .contact{text-align:center;padding:44px 28px}
 .contact p{color:var(--muted);max-width:520px;margin:0 auto 20px}
 footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 16px 30px}
-@media (max-width:620px){nav .links{display:none}.hero{padding:36px 22px}}
+@media (max-width:620px){nav{border-radius:24px;padding:8px 12px}nav b{display:none}nav{justify-content:center}nav a{padding:6px 8px;font-size:.82rem}.hero{padding:36px 22px}}
 </style>
 </head>
 <body>
 <div class="bg"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div></div>
 
-<nav class="glass">
+<nav class="glass" aria-label="Main">
   <b>Nilesh Yadav</b>
-  <div class="links"><a href="#work">Work</a><a href="#skills">Skills</a><a href="#journey">Focus</a><a href="#contact">Contact</a></div>
+  <div class="links"><a href="#work">Work</a><a href="#skills">Skills</a><a href="#journey">Experience</a><a href="#contact">Contact</a></div>
   <button id="theme" aria-label="Toggle theme">◐</button>
 </nav>
 
 <main>
   <header class="glass hero">
-    <span class="pill">📍 Mumbai, India · Hybrid / Remote</span>
-    <h1>Hi, I’m <span>Nilesh Yadav</span></h1>
+    <span class="pill">Full Stack Developer · Mumbai, India · Hybrid / Remote</span>
+    <h1><span>Nilesh Yadav</span></h1>
     <p>Full Stack Developer with 5 years of experience building web products with React, SolidJS, Node.js, GraphQL and MongoDB. Clean UI, reliable APIs and fast production fixes.</p>
-    <a class="btn p" href="#work">View my work</a>
+    <a class="btn p" href="#work">View projects</a>
     <a class="btn g" href="#contact">Get in touch</a>
   </header>
 
@@ -116,33 +124,18 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 16px 30px
   <section id="work">
     <h2>Selected <span>work</span></h2>
     <div class="grid">
-      <article class="glass card"><div class="ico">🎬</div><h3>VidyBack — AI Social Content Creator</h3>
-        <p>Turns online store products into video ads, image and carousel posts and publishes them to social media. Built the dashboard, templates, video preview, catalog import APIs, scheduling, Brand Kit and publishing to Facebook, Instagram, YouTube and Pinterest.</p>
-        <div class="tags"><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">GraphQL</span></div></article>
-      <article class="glass card"><div class="ico">🔄</div><h3>QuickBooks Sync Integration</h3>
-        <p>Two-way sync between a SaaS app and QuickBooks Online with OAuth, configurable entity mappings, an embeddable SolidJS monitoring widget, MySQL schema, REST APIs and a merchant integration guide.</p>
-        <div class="tags"><span class="tag">SolidJS</span><span class="tag">Express.js</span><span class="tag">MySQL</span><span class="tag">OAuth 2.0</span></div></article>
-      <article class="glass card"><div class="ico">💳</div><h3>Andone Payment Form Revamp</h3>
-        <p>Rebuilt a payment collection form in pure JavaScript with client-side validation, a fully responsive flow, payment API integration and an embeddable merchant widget.</p>
-        <div class="tags"><span class="tag">Vanilla JS</span><span class="tag">Payment gateway</span><span class="tag">REST APIs</span></div></article>
-      <article class="glass card"><div class="ico">🧩</div><h3>AI Workflow Designer</h3>
-        <p>A ReactFlow-based agentic workflow editor built on AWS Bedrock primitives, with a registry-based node builder, searchable input dropdowns and custom animated edges.</p>
-        <div class="tags"><span class="tag">ReactFlow</span><span class="tag">Zustand</span><span class="tag">Bedrock Flows</span></div></article>
-      <article class="glass card"><div class="ico">🫧</div><h3>Execution Visualization</h3>
-        <p>Animated data bubbles travelling along edges, topological node grouping with Kahn’s algorithm, trace-to-path reconstruction and a timeline-based execution trace viewer.</p>
-        <div class="tags"><span class="tag">Graph algorithms</span><span class="tag">React hooks</span><span class="tag">Animation</span></div></article>
-      <article class="glass card"><div class="ico">👥</div><h3>Co-browsing</h3>
-        <p>Customer page sharing with a live agent view, built end-to-end on a Next.js server and evaluated on an rrweb and syncit foundation.</p>
-        <div class="tags"><span class="tag">Next.js</span><span class="tag">rrweb</span><span class="tag">Real-time</span></div></article>
-      <article class="glass card"><div class="ico">💸</div><h3>Finance Manager</h3>
-        <p>Mobile-responsive finance site with Firebase login, per-account money in, money out and balance, plus a paginated transaction list.</p>
-        <div class="tags"><span class="tag">Firebase</span><span class="tag">Firestore</span><span class="tag">Responsive</span></div></article>
-      <article class="glass card"><div class="ico">📦</div><h3>AuroCX SDK &amp; Live Chat Widget</h3>
-        <p>An SDK that lets clients embed platform modules with a simple script, plus an embeddable live chat widget, meeting and customer session modules, and VitePress docs for integrations like Slack, Salesforce and HubSpot.</p>
-        <div class="tags"><span class="tag">TypeScript</span><span class="tag">SDK</span><span class="tag">VitePress</span></div></article>
-      <article class="glass card"><div class="ico">🎛️</div><h3>Component Craft</h3>
-        <p>A Tiptap email editor, a curly-brace autocomplete input with cursor preservation, a Transfer Chat modal on AWS Connect, a schedule modal with a custom day-of-month picker and a Bedrock guardrail form.</p>
-        <div class="tags"><span class="tag">Mantine v6</span><span class="tag">Tiptap</span><span class="tag">AWS Connect</span></div></article>
+      <article class="glass card"><div class="ico">01</div><h3>VidyBack — AI Social Content Creator</h3>
+        <p>Turns online store products into video ads, image and carousel posts, and publishes them to social media. Live on Shopify/Wix. Built the dashboard, template selection, video preview and post creation screens, backend APIs that import store catalogs, publishing and scheduling to Facebook, Instagram, YouTube and Pinterest, plus templates, video generation and Brand Kit.</p>
+        <div class="tags"><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MongoDB</span><span class="tag">REST</span><span class="tag">GraphQL</span></div></article>
+      <article class="glass card"><div class="ico">02</div><h3>Andone — Payment Form Revamp</h3>
+        <p>Payment collection form for Aurionpro Solutions Ltd, rebuilt in pure JavaScript with client-side validation for a cleaner, faster checkout. Fully responsive, integrated with backend payment APIs, and shipped with a widget merchants can embed anywhere.</p>
+        <div class="tags"><span class="tag">JavaScript (ES6+)</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">REST APIs</span><span class="tag">Payment gateway</span></div></article>
+      <article class="glass card"><div class="ico">03</div><h3>QuickBooks Sync Integration</h3>
+        <p>Two-way sync between a SaaS application and QuickBooks Online for Aurionpro Solutions Ltd. OAuth-based authentication with secure token management, configurable entity mappings, an embeddable SolidJS monitoring widget, MySQL schema and REST APIs, and an integration guide for merchant self-onboarding.</p>
+        <div class="tags"><span class="tag">SolidJS</span><span class="tag">Express.js</span><span class="tag">MySQL</span><span class="tag">REST APIs</span><span class="tag">OAuth 2.0</span></div></article>
+      <article class="glass card"><div class="ico">04</div><h3>AuroCX — Customer Experience Platform</h3>
+        <p>CX product for Aurionpro’s banking and payments clients (currently working). Built responsive modules and reusable UI components from design specs, the AuroCX SDK and an embeddable live chat widget (one script), meeting creation and management, customer session management in live chat, and a workflow module for designing and running agentic workflows with configurable node types.</p>
+        <div class="tags"><span class="tag">React.js</span><span class="tag">Next.js</span><span class="tag">REST APIs</span><span class="tag">OAuth 2.0</span></div></article>
     </div>
   </section>
 
@@ -150,36 +143,35 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 16px 30px
     <h2>Toolkit &amp; <span>skills</span></h2>
     <div class="glass skills">
       <h3>FRONTEND</h3>
-      <div class="tags"><span class="tag">React.js</span><span class="tag">SolidJS</span><span class="tag">JavaScript ES6+</span><span class="tag">TypeScript</span><span class="tag">Mantine v6</span><span class="tag">HTML5 &amp; CSS3</span><span class="tag">ReactFlow</span><span class="tag">Zustand</span><span class="tag">Tiptap</span></div>
-      <h3>CLOUD &amp; INTEGRATIONS</h3>
-      <div class="tags"><span class="tag">AWS Bedrock Flows</span><span class="tag">Bedrock Agents</span><span class="tag">AWS Connect</span><span class="tag">Firebase</span><span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">GraphQL</span><span class="tag">REST APIs</span><span class="tag">MongoDB</span><span class="tag">MySQL</span><span class="tag">OAuth 2.0</span><span class="tag">Payment gateways</span><span class="tag">Social media &amp; e-commerce APIs</span></div>
-      <h3>PRACTICE</h3>
-      <div class="tags"><span class="tag">Design systems</span><span class="tag">Dark/light theming</span><span class="tag">Workflow visualization</span><span class="tag">SDK development</span><span class="tag">Technical docs</span><span class="tag">Timezone-correct date handling</span><span class="tag">Git</span><span class="tag">Postman</span><span class="tag">GitHub Copilot</span><span class="tag">Claude</span><span class="tag">ChatGPT</span><span class="tag">Prompt engineering</span></div>
+      <div class="tags"><span class="tag">React.js</span><span class="tag">SolidJS</span><span class="tag">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Responsive UI</span></div>
+      <h3>BACKEND &amp; DATA</h3>
+      <div class="tags"><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">GraphQL</span><span class="tag">REST APIs</span><span class="tag">MongoDB</span><span class="tag">MySQL</span></div>
+      <h3>INTEGRATIONS</h3>
+      <div class="tags"><span class="tag">Payment Gateways</span><span class="tag">Social Media APIs</span><span class="tag">E-commerce APIs</span></div>
+      <h3>AI &amp; TOOLS</h3>
+      <div class="tags"><span class="tag">GitHub Copilot</span><span class="tag">ChatGPT</span><span class="tag">Prompt Engineering</span><span class="tag">Git</span><span class="tag">Postman</span><span class="tag">Claude</span></div>
     </div>
   </section>
 
   <section id="journey">
-    <h2>Experience &amp; <span>focus</span></h2>
+    <h2>Experience &amp; <span>education</span></h2>
     <div class="glass timeline"><ul>
-      <li><b>Software Developer · Kuchnaya Technolabs Pvt. Ltd.</b> (Sep 2021 – Present, Mumbai · Remote). Full lifecycle work on front end and back end, RESTful services and APIs, production fixes and performance, with client projects for Aurionpro Solutions Ltd.</li>
-      <li><b>B.E. in Information Technology.</b> A. C. Patil College of Engineering, Navi Mumbai, 2022. Certified in Cross Platform Mobile App Development (Microsoft, 2020) and Front-End Development (LinkedIn Skill Assessment).</li>
-      <li><b>Visual builders meet execution engines.</b> I work where drag-and-drop editors and runtime semantics collide, like Bedrock Flows’ fan-out DAG limits and keeping webhook logic at the invocation boundary.</li>
-      <li><b>Designing the IR.</b> I studied Make.com’s blueprint format to shape AuroCX’s own intermediate representation.</li>
-      <li><b>Polish in the details.</b> Execution state badges, animated bezier edges and moving arrow indicators.</li>
-      <li><b>Markets on the side.</b> I research NSE-listed companies and follow Indian stock market analysis.</li>
+      <li><b>Software Developer · Kuchnaya Technolabs Pvt. Ltd.</b> (Sep 2021 – Present, Mumbai · Remote). Front-end and back-end development lifecycles, designing and implementing RESTful services and APIs, documenting integrations, and troubleshooting production issues to improve performance and user experience. Client work with Aurionpro Solutions Ltd.</li>
+      <li><b>B.E. in Information Technology.</b> A. C. Patil College of Engineering, Navi Mumbai, 2022.</li>
+      <li><b>Certifications.</b> Cross Platform Mobile App Development (Microsoft, Feb 2020) and Front-End Development (LinkedIn Skill Assessment, passed).</li>
     </ul></div>
   </section>
 
   <section id="contact">
     <div class="glass contact">
       <h2>Let’s <span>build something</span></h2>
-      <p>Interested in workflow tooling, design systems or frontend-heavy products? Based in Mumbai, open to hybrid and remote work.</p>
+      <p>Open to hybrid and remote opportunities. Based in Mumbai, India.</p>
       <a class="btn p" href="mailto:nileshyadav735@gmail.com">Email me</a>
       <a class="btn g" href="https://www.linkedin.com/in/nileshyadav735" target="_blank" rel="noopener">LinkedIn</a>
     </div>
   </section>
 </main>
-<footer>© Nilesh Yadav · Built with glass and gradients</footer>
+<footer>© 2026 Nilesh Yadav</footer>
 
 <script>
 (function(){
